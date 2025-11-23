@@ -4,15 +4,38 @@
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(#00000001, #00000063);
+    background-image: linear-gradient(#00000001, #00000063), url(/IMG/empresa.png);
     background-position: center;
     background-size: cover;
     background-repeat: space;
     min-width: none;
     min-height: 100vh;
 }
-.container{
-    max-width: 300px;
-    padding: 3%;
-    margin: auto;
+h1{
+    margin: 0;
+    font-size: 2.2em;
+    color: white;
+    text-align: center;
+}
+main{
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+section{
+    margin-bottom: 35px;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.quadrado {
+    width: 305px;
+    height: 53,27px;
+    top: 780,36px;
+    border-radius: 10px;
+    background-color: cadetblue;
 }

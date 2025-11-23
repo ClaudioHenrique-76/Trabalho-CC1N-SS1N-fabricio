@@ -8,11 +8,11 @@ function login(){
     let senha = document.getElementById ("senha"). valor;
 
     if (usuario <= 12) {
-        alert ("insira um usuario válido.")
+        alert ("insira um usuario válido de 12 digitos.")
     }
 
     if (senha <= 12) {
-        alert ("insira uma senha válida.")
+        alert ("insira uma senha válida de 12 digitos.")
     }
 
 }
