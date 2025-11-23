@@ -34,23 +34,20 @@ h1{
     text-align: center;
     font-size: 40px;
 }
-section{
-    margin-bottom: 35px;
+main main{
     text-align: center;
 }
 main main p{
-    text-align: center;
-    font-size: 20px;
+    font-size: 15px;
 }
-p{
-    text-align: center;
-    font-size: 20px;
+.container-mains {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: flex-start; 
+    gap: 20px; 
 }
-main main{
-    background-color: blue;
-    width: 150px;
+.main-esquerda, .main-direita {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
 }
-main div p{
-    color: red;
-}
-
