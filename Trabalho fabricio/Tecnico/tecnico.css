@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(#00000001, #00000063);
+    background-image: linear-gradient(#808080, #c0bebe);
     background-position: center;
     background-size: cover;
     background-repeat: space;
